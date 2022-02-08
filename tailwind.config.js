@@ -11,6 +11,7 @@ module.exports = {
       },
       success: "#027A48",
       error: "#B42318",
+      gray: "EAECF0",
       "gray-500": "#667085",
       "gray-700": "#344054",
       "gray-900": "#101828",
