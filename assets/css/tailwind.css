@@ -3,21 +3,14 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
-    font-family: AvertaStd-Regular;
-    src: url(../fonts/AvertaStd-Regular.woff2) format("woff2"),
-      url(../fonts/AvertaStd-Regular.woff) format("woff"),
-      url(../fonts/AvertaStd-Regular.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: AvertaStd-Semibold;
-    src: url(../fonts/AvertaStd-Semibold.woff2) format("woff2"),
-      url(../fonts/AvertaStd-Semibold.woff) format("woff"),
-      url(../fonts/AvertaStd-Semibold.ttf) format("truetype");
-  }
-
   body {
-    @apply text-text font-avertaregular;
+    @apply font-inter;
+  }
+
+  button {
+    @apply flex gap-x-12 items-center font-medium text-xs;
+    padding: 10px 16px;
+    border-width: 1px;
+    border-radius: 8px;
   }
 }

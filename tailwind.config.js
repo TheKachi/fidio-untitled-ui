@@ -12,9 +12,15 @@ module.exports = {
       success: "#027A48",
       error: "#B42318",
       gray: "EAECF0",
+      "gray-300": "#98A2B3",
       "gray-500": "#667085",
       "gray-700": "#344054",
       "gray-900": "#101828",
+      white: "#fff",
+    },
+
+    fontFamily: {
+      inter: "Inter, sans-serif;",
     },
 
     fontSize: {
@@ -23,6 +29,7 @@ module.exports = {
       base: "16px",
       lg: "24px",
       xl: "30px",
+      "2xl": "36px",
     },
 
     spacing: {

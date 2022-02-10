@@ -25,6 +25,10 @@ export default {
         href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap",
         rel: "stylesheet",
       },
+      {
+        rel: "stylesheet",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css",
+      },
     ],
   },
 
@@ -41,6 +45,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
+    "@nuxtjs/svg",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
